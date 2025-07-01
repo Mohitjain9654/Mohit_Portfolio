@@ -8,13 +8,18 @@ import CertificationsSection from "../components/CertificationsSection";
 import ContactSection from "../components/ContactSection";
 
 const Home = () => {
+    
+    const projectsRef = useRef(null);
+    
     return (
         <>
             <Hero />
             <PortfolioSection />
             <JourneySection />
             <TechnologiesSection />
-            <ProjectsSection />
+            <div ref={projectsRef}>
+        <ProjectsSection />
+      </div>
             <CertificationsSection />
             <ContactSection />
         </>
