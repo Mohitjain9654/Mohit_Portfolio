@@ -103,11 +103,11 @@ const ContactSection = () => {
                         <div className="space-y-4">
                             <div className="flex items-center text-neutral-300">
                                 <FaEnvelope className="text-teal-400 mr-3" size={20} />
-                                <span className="text-base">mohitjain965405@gmail.com</span>
+                                <span className="text-base">mohitjain965482@gmail.com</span>
                             </div>
                             <div className="flex items-center text-neutral-300">
                                 <FaMapMarkerAlt className="text-teal-400 mr-3" size={20} />
-                                <span className="text-base">Indore, Madhya Pradesh, India</span>
+                                <span className="text-base">Faridabad, Haryana, India</span>
                             </div>
                             <div className="flex items-center text-neutral-300">
                                 <FaClock className="text-teal-400 mr-3" size={20} />
