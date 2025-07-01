@@ -1,4 +1,4 @@
-import React from 'react'; // React is implicitly imported for JSX usage
+import React, { useRef } from 'react';
 import Hero from "../components/home_main";
 import PortfolioSection from "../components/PortfolioSection";
 import JourneySection from "../components/JourneySection";
