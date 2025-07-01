@@ -4,7 +4,7 @@ import { loadFull } from "tsparticles";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import VerticalEmail from '../components/VerticalEmail';
 import SocialLinks from '../components/SocialLinks'; 
-import ProjectsSection from "./components/ProjectsSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 const Hero = ({ projectsRef }) => {
     const particlesInit = useCallback(async engine => {
