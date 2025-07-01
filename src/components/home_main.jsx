@@ -4,8 +4,9 @@ import { loadFull } from "tsparticles";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import VerticalEmail from '../components/VerticalEmail';
 import SocialLinks from '../components/SocialLinks'; 
+import ProjectsSection from "./components/ProjectsSection";
 
-const Hero = () => {
+const Hero = ({ projectsRef }) => {
     const particlesInit = useCallback(async engine => {
         await loadFull(engine);
     }, []);
@@ -65,7 +66,7 @@ const Hero = () => {
                 </p>
 
                 {/* CTA Button */}
-                <button className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md shadow-lg transition-all duration-300">
+                <button className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md shadow-lg transition-all duration-300" onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
                     VIEW PROJECTS
                 </button>
             </div>
