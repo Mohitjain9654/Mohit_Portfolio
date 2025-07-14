@@ -1,12 +1,60 @@
-# React + Vite
+# Mohit Jain – Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my professional journey, technical skills, and featured projects, all built with modern web technologies.
 
-Currently, two official plugins are available:
+📍 [Live Site →](https://mohitjain-portfolio.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧑‍💻 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I’m a Computer Science undergraduate passionate about building full-stack web applications and solving real-world problems with code. My interests lie in:
+
+- Full-Stack Development (React.js, Node.js)
+- Cloud Platforms (AWS, Azure, Firebase)
+- AI/ML-enabled Apps
+- Open Source Collaboration
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend:** React.js, Vite, HTML, CSS, JavaScript
+- **Animations & Styling:** Tailwind CSS, Framer Motion
+- **Deployment:** Vercel
+- **Tools:** Git, VS Code
+
+---
+
+## 📌 Features
+
+- 💼 **Featured Projects Section** – Includes project cards with tech stacks and links to GitHub
+- 🧠 **Skills Summary** – Shows tools, platforms, and languages I work with
+- 📜 **Resume Access** – Downloadable resume from the site
+- 🔗 **Social Links** – LinkedIn, GitHub, Email integration
+- 💡 **Responsive Design** – Fully mobile-friendly and optimized layout
+
+---
+
+## 🖼️ Screenshots
+
+> *(Add your actual screenshots in a `screenshots/` folder)*
+
+### 💻 Landing Page
+![Landing Page](./screenshots/landing.png)
+
+### 📂 Projects Showcase
+![Projects Section](./screenshots/projects.png)
+
+### 📱 Mobile View
+![Mobile View](./screenshots/mobile.png)
+
+---
+
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/Mohitjain9654/Mohit_Portfolio.git
+cd Mohit_Portfolio
+npm install
+npm run dev
