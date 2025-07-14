@@ -45,7 +45,7 @@ I’m a Computer Science undergraduate passionate about building full-stack web 
 ![Projects Section](./screenshots/projects.png)
 
 ### 📱 Mobile View  
-![Mobile View](./screenshots/mobile.png)
+<img src="./screenshots/mobile.png" width="250" alt="Mobile View">
 
 ---
 
