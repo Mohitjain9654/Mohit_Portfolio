@@ -72,8 +72,6 @@ If you'd like to use this work, contact me directly.
 
 ---
 
----
-
 ## 🙋‍♂️ Author
 
 Built with ❤️ by Mohit Jain
