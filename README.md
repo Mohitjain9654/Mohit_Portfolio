@@ -63,6 +63,14 @@ Mohit_Portfolio/
 
 ```
 ---
+## 🚫 License
+
+This project is **not licensed for public use, modification, or distribution**.  
+All rights reserved © 2025 Mohit Jain.
+
+If you'd like to use this work, contact me directly.
+
+---
 
 ## 🙋‍♂️ Contact Me
 
