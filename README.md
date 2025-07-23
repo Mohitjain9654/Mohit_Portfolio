@@ -72,7 +72,12 @@ If you'd like to use this work, contact me directly.
 
 ---
 
-## 🙋‍♂️ Contact Me
+---
+
+## 🙋‍♂️ Author
+
+Built with ❤️ by Mohit Jain
+
 
 Feel free to connect or collaborate!
 
