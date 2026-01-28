@@ -62,7 +62,7 @@ const Hero = ({ projectsRef }) => {
 
                 {/* Subtitle */}
                 <p className="mt-6 text-gray-300 max-w-xl text-base sm:text-lg md:text-xl px-4">
-                    A passionate Full Stack Developer building sleek web experiences.
+                    Aspiring AI/ML Engineer focused on building intelligent, reliable systems.
                 </p>
 
                 {/* CTA Button */}
