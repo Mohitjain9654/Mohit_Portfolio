@@ -3,6 +3,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import oracle_vector from "../assets/Oracle_AI_Vector.png";
 import microsoft_ai900 from "../assets/microsoft-certified-azure-ai-fundamentals.png";
 import AI_ibm from "../assets/AI-IBM.png";
+import google_cloud_ace from "../assets/google-cloud-ace.png";
 
 // Reusable Certificate Card component
 const CertificateCard = ({ logoUrl, title, issuer, issuedDate, expiryDate, certificateLink }) => {
@@ -57,6 +58,14 @@ const CertificateCard = ({ logoUrl, title, issuer, issuedDate, expiryDate, certi
 // Main Certifications Section
 const CertificationsSection = () => {
     const certificationsData = [
+        {
+            logoUrl: google_cloud_ace,
+            title: "Associate Cloud Engineer",
+            issuer: "Google Cloud",
+            issuedDate: "January 2026",
+            expiryDate: "January 2029",
+            certificateLink: "https://www.credly.com/go/4amnXxW0QInJSSNGiPF6Mw"
+        },
         {
             logoUrl: microsoft_ai900,
             title: "Azure AI Fundamentals (AI-900)",
