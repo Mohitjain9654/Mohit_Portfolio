@@ -81,28 +81,31 @@ const PortfolioSection = () => {
             ref={el => setParagraphRef(el, index)}
             className={`text-gray-300 text-base sm:text-lg leading-relaxed transition-all duration-700 ease-out ${paragraphVisible[index] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} ${index > 0 ? `delay-${index * 100}` : ''}`}
           >
-            {index === 0 && (
-              <>Hello! I’m <strong>Mohit Jain</strong>, a Full Stack Developer from India with a strong passion
-              for creating sleek, responsive, and high-performance web applications. With hands-on experience
-              in modern technologies like <strong>React.js, Node.js, Express.js, MongoDB, MySQL</strong>, and tools like
-              <strong> Vite, Tailwind CSS, Git</strong>, I build digital solutions that are as functional as they are beautiful.</>
-            )}
-            {index === 1 && (
-              <>My projects range from <strong>smart agriculture platforms</strong> using AI APIs, to
-              <strong> hospital management dashboards</strong>, to a <strong>vehicle retrofitting eligibility app </strong>
-               that integrates both manual form inputs and camera-based detection. I love building
-              solutions that solve real-world problems.</>
-            )}
-            {index === 2 && (
-              <>I’ve actively participated in hackathons like <strong>BuildWithIndia</strong>, constantly challenging myself
-              with innovative ideas and efficient execution. I also enjoy working with open APIs and building user-centric
-              dashboards, admin panels, and recommendation systems.</>
-            )}
-            {index === 3 && (
-              <>When I’m not coding, you’ll find me exploring new tech stacks, contributing to open-source projects,
-              or designing clean UI/UX components. I believe in continuous learning, community collaboration,
-              and building with purpose.</>
-            )}
+{index === 0 && (
+  <>Hello! I’m <strong>Mohit Jain</strong>, a Computer Science undergraduate (2027) from India with a strong interest in
+  <strong> Artificial Intelligence and Machine Learning</strong>. I enjoy working with data and building intelligent
+  systems that can solve real problems. My background in <strong>data structures, algorithms, and object-oriented
+  programming</strong> helps me understand how things work under the hood.</>
+)}
+{index === 1 && (
+  <>I have hands-on experience in <strong>machine learning and computer vision</strong>.
+  I was a <strong>Top 40 Finalist</strong> at a Microsoft BuildWithDelhi2.0 hackathon, where I worked on a
+  <strong>YOLOv8-based safety detection system</strong>. I handled tasks like data preparation, model training,
+  and performance evaluation, and learned how small improvements in data and tuning can make a big difference.</>
+)}
+
+{index === 2 && (
+  <>In 2025, I was <strong>selected for the Amazon ML Summer School (MLSS)</strong>, a competitive program focused on
+  strengthening machine learning fundamentals. I have also completed certifications such as
+  <strong>Google Cloud Associate Cloud Engineer</strong>, <strong>Azure AI Fundamentals</strong>, and
+  <strong>NVIDIA Transformer-Based NLP</strong>, which helped me understand how ML systems are built and used in practice.</>
+)}
+{index === 3 && (
+  <>Along with ML, I build <strong>full-stack applications</strong> to turn ideas into working products.
+  I’ve developed web applications with REST APIs, databases, and dashboards, which helps me connect
+  <strong>machine learning models with real-world use cases</strong>. I like learning deeply, improving step by step,
+  and building things that are simple, reliable, and useful.</>
+)}
           </p>
         ))}
       </div>
