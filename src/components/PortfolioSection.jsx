@@ -90,7 +90,7 @@ const PortfolioSection = () => {
             {index === 1 && (
               <>My projects range from <strong>smart agriculture platforms</strong> using AI APIs, to
               <strong> hospital management dashboards</strong>, to a <strong>vehicle retrofitting eligibility app</strong>
-              that integrates both manual form inputs and camera-based detection. I love building
+               that integrates both manual form inputs and camera-based detection. I love building
               solutions that solve real-world problems.</>
             )}
             {index === 2 && (
