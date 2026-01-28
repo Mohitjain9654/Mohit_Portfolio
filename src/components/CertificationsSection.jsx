@@ -4,7 +4,7 @@ import oracle_vector from "../assets/Oracle_AI_Vector.png";
 import microsoft_ai900 from "../assets/microsoft-certified-azure-ai-fundamentals.png";
 import AI_ibm from "../assets/AI-IBM.png";
 import google_cloud_ace from "../assets/google-cloud-ace.png";
-
+import nvidia_dli from "../assets/nvidia-dli.png";
 
 // Reusable Certificate Card component
 const CertificateCard = ({ logoUrl, title, issuer, issuedDate, expiryDate, certificateLink }) => {
@@ -65,7 +65,15 @@ const CertificationsSection = () => {
             issuer: "Google Cloud",
             issuedDate: "January 2026",
             expiryDate: "January 2029",
-            certificateLink: "https://www.credly.com/go/4amnXxW0QInJSSNGiPF6Mw"
+            certificateLink: "https://www.credly.com/badges/f3824ab0-94b0-42ec-ae58-25dd3c5caeeb"
+        },
+        {
+            logoUrl: nvidia_dli,
+            title: "Introduction to Transformer-Based Natural Language Processing",
+            issuer: "NVIDIA Deep Learning Institute",
+            issuedDate: "July 23, 2025",
+            expiryDate: null,
+            certificateLink: "https://drive.google.com/file/d/1GM8gB8PuMi_c75jTxU6qraOhxVFgLJDU/view?usp=drive_link"
         },
         {
             logoUrl: microsoft_ai900,
