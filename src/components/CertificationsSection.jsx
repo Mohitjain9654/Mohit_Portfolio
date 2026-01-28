@@ -5,6 +5,7 @@ import microsoft_ai900 from "../assets/microsoft-certified-azure-ai-fundamentals
 import AI_ibm from "../assets/AI-IBM.png";
 import google_cloud_ace from "../assets/google-cloud-ace.png";
 
+
 // Reusable Certificate Card component
 const CertificateCard = ({ logoUrl, title, issuer, issuedDate, expiryDate, certificateLink }) => {
     return (
