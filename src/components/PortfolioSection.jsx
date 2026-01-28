@@ -84,14 +84,16 @@ const PortfolioSection = () => {
 {index === 0 && (
   <>Hello! I’m <strong>Mohit Jain</strong>, a Computer Science undergraduate (2027) from India with a strong interest in
   <strong> Artificial Intelligence and Machine Learning</strong>. I enjoy working with data and building intelligent
-  systems that can solve real problems. My background in <strong>data structures, algorithms, and object-oriented
-  programming</strong> helps me understand how things work under the hood.</>
+  systems that can solve real-world problems. My foundation in
+  <strong> data structures, algorithms, and object-oriented programming</strong> helps me understand how things work
+  beyond just using libraries.</>
 )}
+
 {index === 1 && (
   <>I have hands-on experience in <strong>machine learning and computer vision</strong>.
-  I was a <strong>Top 40 Finalist</strong> at a Microsoft BuildWithDelhi2.0 hackathon, where I worked on a
-  <strong>YOLOv8-based safety detection system</strong>. I handled tasks like data preparation, model training,
-  and performance evaluation, and learned how small improvements in data and tuning can make a big difference.</>
+  I was a <strong>Top 40 Finalist</strong> at the <strong>BuildWithDelhi 2.0</strong> hackathon, where I worked on a
+  <strong> YOLOv8-based safety detection system</strong>. During the project, I handled data preparation,
+  model training, and evaluation, and learned how strongly model performance depends on data quality and tuning.</>
 )}
 
 {index === 2 && (
